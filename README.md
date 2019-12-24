@@ -22,3 +22,23 @@ This is my second round of #100DaysOfCode. My focus for this round is to learn m
 - Update login xaml and design a simple login with logo, text boxes and a button
 
 **Thoughts:** I aquianted myself on how to setup a new iOS project that use Prism Library and call simple navigation. I started to recall how to design  a view on XML.   
+
+### Day 2: December 24, 2019 Tuesday
+
+**Today's Progress**: 
+
+*Started a MVVM mentality
+- Made LoginViewModel as BindableBase, INavigationAware, IDestructible
+- Implement methods for navigation aware (e.g NavigatedTo, NavigatedFrom)
+- Implement methods for IDestructible (e.g Destroy)
+- Add binding to username and password entry field to a variable in ViewModel 
+- Add binding command to login button to call a command (method) to trigger the login.
+
+**Thoughts:** I started to change my mentality from an MVC thinking to a MVVM way. I get to understand now how binding works for textfields and button command but I need to read more about bindablebase and dependecy indjection 
+
+**Assignment** 
+Read about the folowing:
+- BindableBase
+- Dependecy Injection
+    - https://www.theserverside.com/news/1321158/A-beginners-guide-to-Dependency-Injection
+- 
