@@ -27,8 +27,7 @@ This is my second round of #100DaysOfCode. My focus for this round is to learn m
 
 **Today's Progress**: 
 
-######Started a MVVM mentality######
-------------------------------------
+*Started a MVVM mentality
 - Made LoginViewModel as BindableBase, INavigationAware, IDestructible
 - Implement methods for navigation aware (e.g NavigatedTo, NavigatedFrom)
 - Implement methods for IDestructible (e.g Destroy)
@@ -47,4 +46,8 @@ Read about the folowing:
 
 **Today's Progress**: 
 
-*
+**Study Notes** 
+- INotifyPropertyChanged - _its an interface to notify clients, typical binding clients that a property value has changed._ 
+        **This interface rasies PropertyChangedEventHandler event**
+- BindableBase - _Is an abstract class that implements INotifyPropertyChanged interface and provide SetProperty<T>, .You can reduce the set method to just one line also ref parameter allows you to update its value_
+
