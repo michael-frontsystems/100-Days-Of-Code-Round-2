@@ -27,7 +27,8 @@ This is my second round of #100DaysOfCode. My focus for this round is to learn m
 
 **Today's Progress**: 
 
-*Started a MVVM mentality
+######Started a MVVM mentality######
+------------------------------------
 - Made LoginViewModel as BindableBase, INavigationAware, IDestructible
 - Implement methods for navigation aware (e.g NavigatedTo, NavigatedFrom)
 - Implement methods for IDestructible (e.g Destroy)
@@ -41,4 +42,9 @@ Read about the folowing:
 - BindableBase
 - Dependecy Injection
     - https://www.theserverside.com/news/1321158/A-beginners-guide-to-Dependency-Injection
-- 
+
+### Day 3: December 25, 2019 Wednesday
+
+**Today's Progress**: 
+
+*
