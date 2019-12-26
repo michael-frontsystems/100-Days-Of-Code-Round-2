@@ -38,7 +38,7 @@ This is my second round of #100DaysOfCode. My focus for this round is to learn m
 
 **Assignment** 
 Read about the folowing:
-- BindableBase
+-**BindableBase**
 - Dependecy Injection
     - https://www.theserverside.com/news/1321158/A-beginners-guide-to-Dependency-Injection
 
@@ -59,5 +59,23 @@ Read about the folowing:
        }
 
     ```
-    - 
+    
+    ### Day 4: December 26, 2019 Thursday
+
+    **Today's Progress**: 
+
+    *Set up Prism TabbedPage (https://xamgirl.com/prism-in-xamarin-forms-step-by-step-part-4/) 
+    - Created a tabbedpage class as Parent of the 2 or more content pages. (e.g CustomTabbedPage.cs) 
+    - Then I added two new ViewPages to be children of the CustomTabbedPage. (e.g Test1Page, Test2Page)
+    - Register the following views in App.cs
+    - Add header ui for both children as a temporary Navigation bar
+    - Add temporary icons to each tab (e.g Idea and Settings)
+
+**Thoughts:** I started using tabbed page in PRISM as an investigation on how to use it and also to get an initial idea on how can I apply this approach to UserVIewPage in Cornerstone. Its all visual changes in today's progress but I will investigate more if NavigationAware methods will still work on a tabbed page setup.
+
+**Assignment** 
+Investigate about the folowing:
+- If NavigationAware methods still work on Tabbed Page Setup
+- If IDestructible methods still work on Tabbed Page Setup
+- Parameter passing when navigating
 
