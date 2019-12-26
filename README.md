@@ -49,15 +49,15 @@ Read about the folowing:
 **Study Notes** 
 - **INotifyPropertyChanged** - _its an interface to notify clients, typical binding clients that a property value has changed. This interface rasies PropertyChangedEventHandler event_ 
 - **BindableBase** - _Is an abstract class that implements INotifyPropertyChanged interface and provide SetProperty<T>, .You can reduce the set method to just one line also ref parameter allows you to update its value_
+    Example:
+    ```C#
+       private string _firstName;
+       public string FirstName
+       {
+           get { return _firstName; }
+           set { SetProperty(ref _firstName, value); }
+       }
 
-Example:
-```C#
-   private string _firstName;
-   public string FirstName
-   {
-       get { return _firstName; }
-       set { SetProperty(ref _firstName, value); }
-   }
-
-```
+    ```
+    - 
 
