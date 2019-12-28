@@ -86,14 +86,65 @@ Investigate about the folowing:
 
 ### Day 5: December 28, 2019 Saturday
 
-**Today's Progress**: 
+**####Today's Progress**: 
+
+**Big Mistake Here!**: 
 - Fix Navigation for login and for calling a child view
 ```C#
     //Navigation as PUSH 
     await _navigationService.NavigateAsync(new System.Uri("/NavigationPage/CustomTabbedPage/HomePage"));
     
     //Navigation as MODAL 
-    await _navigationService.NavigateAsync("/NavigationPage/CustomTabbedPage/HomePage");
+    await _navigationService.NavigateAsync("HomePage");
+```
+```XAML CustomTabbedPage.xaml
+  <?xml version="1.0" encoding="UTF-8"?>
+  <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+               xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+               xmlns:local="clr-namespace:PrismDemoR2.Views"
+               x:Class="PrismDemoR2.Views.CustomTabbedPage">
+      <TabbedPage.Children>
+        <local:Test1Page IconImageSource="idea.png"/>
+        <local:Test2Page IconImageSource="settings.png"/>
+      </TabbedPage.Children>
+  </TabbedPage>
+```
+**Correction**:
+- Proper navigation for Prism:
+```C# LoginViewModel.cs
+    /*
+        Initially I am suing this method thinking that the children in CustomTabbedPage are enclosed to a NavigationPage
+        but the real scenario here is that I am enclosing the CustomTabbedPage within NavigationPage
+        thats why when I push a child to the navigation it pushes it the the whole TabbedPage.
+    */
+        _navigationService.NavigateAsync(new System.Uri("/NavigationPage/CustomTabbedPage"));
+```
+```C# LoginViewModel.cs
+    /*
+        The fix for this is to call CustomTabbedPage as MODAL then enclose all the children with NavigationPage in XAML
+    */
+      _navigationService.NavigateAsync("CustomTabbedPage");
+```
+```XAML CustomTabbedPage.xaml
+  <?xml version="1.0" encoding="UTF-8"?>
+  <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+               xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+               xmlns:local="clr-namespace:PrismDemoR2.Views"
+               x:Class="PrismDemoR2.Views.CustomTabbedPage">
+      <TabbedPage.Children>
+           <NavigationPage Title="HOME" Icon="idea.png">
+              <x:Arguments>
+                  <local:Test1Page />
+              </x:Arguments>
+          </NavigationPage>
+          <NavigationPage Title="SETTINGS" Icon="settings.png">
+              <x:Arguments>
+                  <local:Test2Page />
+              </x:Arguments>
+          </NavigationPage>
+          <!--<local:Test2Page IconImageSource="settings.png"/>-->
+      </TabbedPage.Children>
+  </TabbedPage>
 ```
 
 **Thoughts:** Fix all navigation since all my previous calling of new page are animated from bottom to top which is like calling a  Modal View (in native). It is a little confusing because I was still on "native way" of thinking and Xamarin + Prism has its own way of calling views and it seems simple but needs more attention to how we use NavigateAsync. 
