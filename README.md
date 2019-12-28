@@ -58,9 +58,9 @@ Read about the folowing:
            set { SetProperty(ref _firstName, value); }
        }
 
-    ```
+    `````
     
-    ### Day 4: December 26, 2019 Thursday
+  ### Day 4: December 26, 2019 Thursday
 
     **Today's Progress**: 
 
@@ -79,3 +79,17 @@ Investigate about the folowing:
 - If IDestructible methods still work on Tabbed Page Setup
 - Parameter passing when navigating
 
+  ### Day 5: December 28, 2019 Saturday
+
+    **Today's Progress**: 
+    - Fix Navigation for login and for calling a child view 
+        - _(Navigation as PUSH) await _navigationService.NavigateAsync(new System.Uri("/NavigationPage/CustomTabbedPage/HomePage"));_
+        - _(Navigation as MODAL) await _navigationService.NavigateAsync("/NavigationPage/CustomTabbedPage/HomePage");_
+
+**Thoughts:** Fix all navigation since all my previous calling of new page are animated from bottom to top which is like calling a  Modal View (in native). It is a little confusing because I was still on "native way" of thinking and Xamarin + Prism has its own way of calling views and it seems simple but needs more attention to how we use NavigateAsync. 
+
+**Assignment** 
+Investigate about the folowing:
+- If NavigationAware methods still work on Tabbed Page Setup
+- If IDestructible methods still work on Tabbed Page Setup
+- Parameter passing when navigating
