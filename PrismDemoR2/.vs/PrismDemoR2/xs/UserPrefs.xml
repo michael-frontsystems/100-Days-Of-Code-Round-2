@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{FB8B3B00-5121-411F-928C-EE2959EEB710}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PrismDemoR2/ViewModels/LoginViewModel.cs">
+    <Files>
+      <File FileName="PrismDemoR2/App.xaml.cs" Line="45" Column="62" />
+      <File FileName="PrismDemoR2/ViewModels/LoginViewModel.cs" Line="58" Column="104" />
+      <File FileName="PrismDemoR2/ViewModels/Test1PageViewModel.cs" Line="32" Column="1" />
+      <File FileName="PrismDemoR2/Views/CustomTabbedPage.xaml" Line="7" Column="37" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PrismDemoR2" expanded="True">
+            <Node name="PrismDemoR2" expanded="True">
+              <Node name="ViewModels" expanded="True">
+                <Node name="LoginViewModel.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Test1Page.xaml" expanded="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+            </Node>
+            <Node name="PrismDemoR2.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.PrismDemoR2.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.56FDE9E0-861A-4F56-8B4F-348A4EDD1EB5" />
+</Properties>

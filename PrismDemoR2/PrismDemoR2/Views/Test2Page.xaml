@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:mvvm="clr-namespace:Prism.Events;assembly=Prism"
+             Title="Settings"
+             BackgroundColor="Transparent"
+             x:Class="PrismDemoR2.Views.Test2Page">
+     <ContentPage.Content>
+        <StackLayout Spacing= "0" x:Name="layout">
+            <BoxView HeightRequest="45" HorizontalOptions="FillAndExpand" BackgroundColor="LightSkyBlue" />
+            <StackLayout BackgroundColor="LightSkyBlue"
+                         HeightRequest="60"
+                         HorizontalOptions="FillAndExpand">
+                <Label Text="Settings"
+                       TextColor="White"
+                       FontSize="20"
+                       FontAttributes="Bold"
+                       HorizontalOptions="FillAndExpand"
+                       VerticalOptions="FillAndExpand"
+                       HorizontalTextAlignment="Center"
+                       VerticalTextAlignment="Center"/>
+            </StackLayout>    
+        </StackLayout>
+      </ContentPage.Content>
+</ContentPage>

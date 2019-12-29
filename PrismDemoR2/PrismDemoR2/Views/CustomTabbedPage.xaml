@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:PrismDemoR2.Views"
+             x:Class="PrismDemoR2.Views.CustomTabbedPage">
+    <TabbedPage.Children>
+         <NavigationPage Title="Idea" Icon="idea.png">
+            <x:Arguments>
+                <local:Test1Page />
+            </x:Arguments>
+        </NavigationPage>
+        <NavigationPage Title="Settings" Icon="settings.png">
+            <x:Arguments>
+                <local:Test2Page />
+            </x:Arguments>
+        </NavigationPage>
+        <!--<local:Test2Page IconImageSource="settings.png"/>-->
+    </TabbedPage.Children>
+</TabbedPage>
+

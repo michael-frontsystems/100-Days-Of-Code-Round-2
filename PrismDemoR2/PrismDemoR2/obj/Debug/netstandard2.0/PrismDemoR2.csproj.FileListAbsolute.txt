@@ -1,0 +1,16 @@
+/Users/mjredoble/Documents/Projects/Xamarin Projects/Other Projects/PrismDemoR2/PrismDemoR2/bin/Debug/netstandard2.0/PrismDemoR2.deps.json
+/Users/mjredoble/Documents/Projects/Xamarin Projects/Other Projects/PrismDemoR2/PrismDemoR2/bin/Debug/netstandard2.0/PrismDemoR2.dll
+/Users/mjredoble/Documents/Projects/Xamarin Projects/Other Projects/PrismDemoR2/PrismDemoR2/bin/Debug/netstandard2.0/ref/PrismDemoR2.dll
+/Users/mjredoble/Documents/Projects/Xamarin Projects/Other Projects/PrismDemoR2/PrismDemoR2/bin/Debug/netstandard2.0/PrismDemoR2.pdb
+/Users/mjredoble/Documents/Projects/Xamarin Projects/Other Projects/PrismDemoR2/PrismDemoR2/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/mjredoble/Documents/Projects/Xamarin Projects/Other Projects/PrismDemoR2/PrismDemoR2/obj/Debug/netstandard2.0/Views/CustomTabbedPage.xaml.g.cs
+/Users/mjredoble/Documents/Projects/Xamarin Projects/Other Projects/PrismDemoR2/PrismDemoR2/obj/Debug/netstandard2.0/Views/HomePage.xaml.g.cs
+/Users/mjredoble/Documents/Projects/Xamarin Projects/Other Projects/PrismDemoR2/PrismDemoR2/obj/Debug/netstandard2.0/Views/LoginPage.xaml.g.cs
+/Users/mjredoble/Documents/Projects/Xamarin Projects/Other Projects/PrismDemoR2/PrismDemoR2/obj/Debug/netstandard2.0/Views/Test1Page.xaml.g.cs
+/Users/mjredoble/Documents/Projects/Xamarin Projects/Other Projects/PrismDemoR2/PrismDemoR2/obj/Debug/netstandard2.0/Views/Test2Page.xaml.g.cs
+/Users/mjredoble/Documents/Projects/Xamarin Projects/Other Projects/PrismDemoR2/PrismDemoR2/obj/Debug/netstandard2.0/PrismDemoR2.AssemblyInfoInputs.cache
+/Users/mjredoble/Documents/Projects/Xamarin Projects/Other Projects/PrismDemoR2/PrismDemoR2/obj/Debug/netstandard2.0/PrismDemoR2.AssemblyInfo.cs
+/Users/mjredoble/Documents/Projects/Xamarin Projects/Other Projects/PrismDemoR2/PrismDemoR2/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/mjredoble/Documents/Projects/Xamarin Projects/Other Projects/PrismDemoR2/PrismDemoR2/obj/Debug/netstandard2.0/PrismDemoR2.dll
+/Users/mjredoble/Documents/Projects/Xamarin Projects/Other Projects/PrismDemoR2/PrismDemoR2/obj/Debug/netstandard2.0/ref/PrismDemoR2.dll
+/Users/mjredoble/Documents/Projects/Xamarin Projects/Other Projects/PrismDemoR2/PrismDemoR2/obj/Debug/netstandard2.0/PrismDemoR2.pdb
