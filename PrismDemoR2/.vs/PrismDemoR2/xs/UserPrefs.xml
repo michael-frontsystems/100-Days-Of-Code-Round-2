@@ -1,10 +1,10 @@
 ﻿<Properties StartupConfiguration="{FB8B3B00-5121-411F-928C-EE2959EEB710}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="PrismDemoR2/ViewModels/LoginViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PrismDemoR2/ViewModels/Test2PageViewModel.cs">
     <Files>
       <File FileName="PrismDemoR2/App.xaml.cs" Line="45" Column="62" />
-      <File FileName="PrismDemoR2/ViewModels/LoginViewModel.cs" Line="58" Column="104" />
-      <File FileName="PrismDemoR2/ViewModels/Test1PageViewModel.cs" Line="32" Column="1" />
-      <File FileName="PrismDemoR2/Views/CustomTabbedPage.xaml" Line="7" Column="37" />
+      <File FileName="PrismDemoR2/ViewModels/LoginViewModel.cs" Line="75" Column="13" />
+      <File FileName="PrismDemoR2/ViewModels/Test1PageViewModel.cs" Line="14" Column="1" />
+      <File FileName="PrismDemoR2/ViewModels/Test2PageViewModel.cs" Line="28" Column="70" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,7 +12,7 @@
           <Node name="PrismDemoR2" expanded="True">
             <Node name="PrismDemoR2" expanded="True">
               <Node name="ViewModels" expanded="True">
-                <Node name="LoginViewModel.cs" selected="True" />
+                <Node name="Test2PageViewModel.cs" selected="True" />
               </Node>
               <Node name="Views" expanded="True">
                 <Node name="Test1Page.xaml" expanded="True" />

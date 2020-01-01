@@ -1,5 +1,5 @@
-"--cache=/Users/mjredoble/Documents/Projects/Xamarin Projects/Other Projects/PrismDemoR2/PrismDemoR2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.5-13.3/mtouch-cache"
-"--sim=/Users/mjredoble/Documents/Projects/Xamarin Projects/Other Projects/PrismDemoR2/PrismDemoR2.iOS/bin/iPhoneSimulator/Debug/device-builds/iphone12.5-13.3/PrismDemoR2.iOS.app"
+"--cache=/Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.5-13.3/mtouch-cache"
+"--sim=/Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2.iOS/bin/iPhoneSimulator/Debug/device-builds/iphone12.5-13.3/PrismDemoR2.iOS.app"
 --executable=PrismDemoR2.iOS
  --debug
  --sgen-conc
@@ -10,11 +10,11 @@
  --aot-options=-O=-float32
  --http-message-handler=NSUrlSessionHandler
  --abi=x86_64
-"--symbollist=/Users/mjredoble/Documents/Projects/Xamarin Projects/Other Projects/PrismDemoR2/PrismDemoR2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.5-13.3/mtouch-symbols.list"
+"--symbollist=/Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.5-13.3/mtouch-symbols.list"
  --dsym=no
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/OpenTK-1.0.dll
-"-r=/Users/mjredoble/Documents/Projects/Xamarin Projects/Other Projects/PrismDemoR2/PrismDemoR2/bin/Debug/netstandard2.0/PrismDemoR2.dll"
+"-r=/Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2/bin/Debug/netstandard2.0/PrismDemoR2.dll"
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Numerics.dll
@@ -209,7 +209,7 @@
 -r=/Users/mjredoble/.nuget/packages/xamarin.forms/4.2.0.709249/lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
 -r=/Users/mjredoble/.nuget/packages/xamarin.forms/4.2.0.709249/lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
 -r=/Users/mjredoble/.nuget/packages/xamarin.forms/4.2.0.709249/lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
-"-r=/Users/mjredoble/Documents/Projects/Xamarin Projects/Other Projects/PrismDemoR2/PrismDemoR2/bin/Debug/netstandard2.0/PrismDemoR2.dll"
+"-r=/Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2/bin/Debug/netstandard2.0/PrismDemoR2.dll"
  --target-framework=Xamarin.iOS,v1.0
-"--root-assembly=/Users/mjredoble/Documents/Projects/Xamarin Projects/Other Projects/PrismDemoR2/PrismDemoR2.iOS/bin/iPhoneSimulator/Debug/PrismDemoR2.iOS.exe"
+"--root-assembly=/Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2.iOS/bin/iPhoneSimulator/Debug/PrismDemoR2.iOS.exe"
  

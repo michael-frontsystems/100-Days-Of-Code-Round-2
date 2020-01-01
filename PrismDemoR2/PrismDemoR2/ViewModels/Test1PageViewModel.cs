@@ -1,4 +1,5 @@
 ﻿using System;
+using Prism;
 using Prism.Commands;
 using Prism.Mvvm;
 using Prism.Navigation;
@@ -6,11 +7,20 @@ using PrismDemoR2.Views;
 
 namespace PrismDemoR2.ViewModels
 {
-    public class Test1PageViewModel : BindableBase, INavigationAware, IDestructible
+    public class Test1PageViewModel : BindableBase, INavigationAware, IDestructible, IActiveAware
     {
         public DelegateCommand HomeCommand { get; set; }
 
+        private bool _isActive;
+        public bool IsActive
+        {
+            get { return _isActive; }
+            set { SetProperty(ref _isActive, value, RaisePropertyChanged); }
+        }
+
         private INavigationService _navigationService;
+
+        public event EventHandler IsActiveChanged;
 
         public Test1PageViewModel(INavigationService navigationService)
         {
@@ -32,17 +42,22 @@ namespace PrismDemoR2.ViewModels
 
         public void OnNavigatedFrom(INavigationParameters parameters)
         {
-            //
+            Console.WriteLine($"{nameof(Test1PageViewModel)} - OnNavigatedFrom");
         }
 
         public void OnNavigatedTo(INavigationParameters parameters)
         {
-            //
+            Console.WriteLine($"{nameof(Test1PageViewModel)} - OnNavigatedTo");
         }
 
         public void Destroy()
         {
-            //
+            Console.WriteLine($"{nameof(Test1PageViewModel)} - Destroy!");
+        }
+
+        private void RaisePropertyChanged()
+        {
+            Console.WriteLine($"{nameof(Test1PageViewModel)} TAB IsActive: " + _isActive);
         }
     }
 }

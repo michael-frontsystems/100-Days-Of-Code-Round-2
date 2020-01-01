@@ -1,4 +1,4 @@
-/Users/mjredoble/Documents/Projects/Xamarin Projects/Other Projects/PrismDemoR2/PrismDemoR2.iOS/bin/iPhoneSimulator/Debug/PrismDemoR2.iOS.exe
+/Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2.iOS/bin/iPhoneSimulator/Debug/PrismDemoR2.iOS.exe
 /Library/Frameworks/Xamarin.iOS.framework/Versions/13.6.0.12/lib/mono/Xamarin.iOS/mscorlib.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/13.6.0.12/lib/mono/Xamarin.iOS/../../64bits/Xamarin.iOS.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/13.6.0.12/lib/mono/Xamarin.iOS/System.dll
@@ -23,7 +23,7 @@
 /Users/mjredoble/.nuget/packages/xamarin.forms/4.2.0.709249/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll
 /Users/mjredoble/.nuget/packages/prism.forms/7.2.0.1422/lib/netstandard2.0/Prism.Forms.dll
 /Users/mjredoble/.nuget/packages/prism.core/7.2.0.1422/lib/netstandard2.0/Prism.dll
-/Users/mjredoble/Documents/Projects/Xamarin Projects/Other Projects/PrismDemoR2/PrismDemoR2/bin/Debug/netstandard2.0/PrismDemoR2.dll
+/Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2/bin/Debug/netstandard2.0/PrismDemoR2.dll
 /Users/mjredoble/.nuget/packages/xamarin.forms/4.2.0.709249/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll
 /Users/mjredoble/.nuget/packages/prism.unity.forms/7.2.0.1422/lib/netstandard2.0/Prism.Unity.Forms.dll
 /Users/mjredoble/.nuget/packages/unity.abstractions/5.11.1/lib/netstandard2.0/Unity.Abstractions.dll

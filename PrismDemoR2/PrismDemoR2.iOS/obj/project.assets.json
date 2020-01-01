@@ -1492,11 +1492,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mjredoble/Documents/Projects/Xamarin Projects/Other Projects/PrismDemoR2/PrismDemoR2.iOS/PrismDemoR2.iOS.csproj",
+      "projectUniqueName": "/Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2.iOS/PrismDemoR2.iOS.csproj",
       "projectName": "PrismDemoR2.iOS",
-      "projectPath": "/Users/mjredoble/Documents/Projects/Xamarin Projects/Other Projects/PrismDemoR2/PrismDemoR2.iOS/PrismDemoR2.iOS.csproj",
+      "projectPath": "/Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2.iOS/PrismDemoR2.iOS.csproj",
       "packagesPath": "/Users/mjredoble/.nuget/packages/",
-      "outputPath": "/Users/mjredoble/Documents/Projects/Xamarin Projects/Other Projects/PrismDemoR2/PrismDemoR2.iOS/obj/",
+      "outputPath": "/Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2.iOS/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -1511,8 +1511,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/mjredoble/Documents/Projects/Xamarin Projects/Other Projects/PrismDemoR2/PrismDemoR2/PrismDemoR2.csproj": {
-              "projectPath": "/Users/mjredoble/Documents/Projects/Xamarin Projects/Other Projects/PrismDemoR2/PrismDemoR2/PrismDemoR2.csproj"
+            "/Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2/PrismDemoR2.csproj": {
+              "projectPath": "/Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2/PrismDemoR2.csproj"
             }
           }
         }

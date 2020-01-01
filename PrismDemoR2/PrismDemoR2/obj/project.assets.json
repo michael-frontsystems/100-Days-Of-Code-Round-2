@@ -808,11 +808,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mjredoble/Documents/Projects/Xamarin Projects/Other Projects/PrismDemoR2/PrismDemoR2/PrismDemoR2.csproj",
+      "projectUniqueName": "/Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2/PrismDemoR2.csproj",
       "projectName": "PrismDemoR2",
-      "projectPath": "/Users/mjredoble/Documents/Projects/Xamarin Projects/Other Projects/PrismDemoR2/PrismDemoR2/PrismDemoR2.csproj",
+      "projectPath": "/Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2/PrismDemoR2.csproj",
       "packagesPath": "/Users/mjredoble/.nuget/packages/",
-      "outputPath": "/Users/mjredoble/Documents/Projects/Xamarin Projects/Other Projects/PrismDemoR2/PrismDemoR2/obj/",
+      "outputPath": "/Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

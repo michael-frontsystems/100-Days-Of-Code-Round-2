@@ -62,17 +62,17 @@ namespace PrismDemoR2.ViewModels
 
         public void OnNavigatedFrom(INavigationParameters parameters)
         {
-            Console.WriteLine("Navigated FROM!");
+            Console.WriteLine($"{nameof(LoginViewModel)} - Navigated FROM!");
         }
 
         public void OnNavigatedTo(INavigationParameters parameters)
         {
-            Console.WriteLine("Navigated TO!");
+            Console.WriteLine($"{nameof(LoginViewModel)} - Navigated TO!");
         }
 
         public void Destroy()
         {
-            Console.WriteLine("On Destroy!");
+            Console.WriteLine($"{nameof(LoginViewModel)} - DESTROY");
         }
     }
 }
