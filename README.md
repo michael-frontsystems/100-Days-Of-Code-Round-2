@@ -154,3 +154,12 @@ Investigate about the folowing:
 - If NavigationAware methods still work on Tabbed Page Setup
 - If IDestructible methods still work on Tabbed Page Setup
 - Parameter passing when navigating
+
+
+### Day 6: December 31, 2019 Tuesday
+
+**####Today's Progress**: (From Assignment) 
+- NavigationAware methods still works on Tabbed Page Setup 
+- IDestructible method Destroy() is not triggered if Views are children of the Tabbed page  
+
+**Thoughts:** The children of a tabbed page behaves similar to the native one, they are somewhat static and will still trigger INavigationAware if they have their own children to push and pop. but a new IActivateAware interface was added to get to know if the Tab is activated or not. For example, If Tab1Page was selected _IsActive_ flag will return true and if other tabs were selected then _IsActive_ flag will return false.  
