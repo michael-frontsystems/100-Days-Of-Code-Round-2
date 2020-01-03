@@ -164,7 +164,7 @@ Investigate about the folowing:
 
 **Thoughts:** The children of a tabbed page behaves similar to the native one, they are somewhat static and will still trigger INavigationAware if they have their own children to push and pop. but a new IActivateAware interface was added to get to know if the Tab is activated or not. For example, If Tab1Page was selected _IsActive_ flag will return true and if other tabs were selected then _IsActive_ flag will return false.  
 
-### Day 7: January 1, 2020 Friday
+### Day 7: January 3, 2020 Friday
 
 **####Today's Progress**:
 - NavigationPage -
