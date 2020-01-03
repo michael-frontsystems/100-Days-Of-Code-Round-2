@@ -163,3 +163,65 @@ Investigate about the folowing:
 - IDestructible method Destroy() is not triggered if Views are children of the Tabbed page  
 
 **Thoughts:** The children of a tabbed page behaves similar to the native one, they are somewhat static and will still trigger INavigationAware if they have their own children to push and pop. but a new IActivateAware interface was added to get to know if the Tab is activated or not. For example, If Tab1Page was selected _IsActive_ flag will return true and if other tabs were selected then _IsActive_ flag will return false.  
+
+### Day 7: January 1, 2020 Friday
+
+**####Today's Progress**:
+- NavigationPage -
+    - We register the navigation page in RegisterTypes()
+    - Add the “NavigationPage” to the uri when navigating (e.g navigationService.NavigateAsync(_uri_);
+- Customize NavigationPage (e.g change navigation bar color)
+        - Create a new class and inherit from NavigationPage
+
+```C# CustomNavigationPage.cs
+
+using System;
+using Xamarin.Forms;
+
+namespace Sample.Views
+{
+    public class CustomNavigationPage : NavigationPage
+    {
+        public CustomNavigationPage()
+        {
+        }
+    }
+}
+```
+- Deep Linking - which allows creating your own navigation stack of pages. this will create a stack from view 1 to view 5 and it can navigate back to view 1 with a back button. (e.g LoginPage, HomePage, HomeDetailPage, HomeDetailOptionsPage)
+- CanNavigate -  is a method provided by Prism, in which one you set if you can navigate or not.  To use it is simple, you just have to implement the interface called IConfirmNavigation and use the method CanNavigate. If the method is set to false, you won’t be able to navigate to any page even if you do _navigationService.NavigateAsync(….).
+
+```
+public class LoginViewModel : IConfirmNavigation
+{
+    public public bool CanNavigate(NavigationParameters parameters)
+    {
+        return true;
+    }
+}
+```
+- Platform Services - When creating a platform specific service or feature we define the dependency on and register them in each platform RegisterType() block.
+- Delegate Commands with observable CanExecute state,  this means the property/method associated to it will always be observed updating CanExecute state automatically.
+
+```
+    
+    public ICommand GetBatteryStatusCommand { get; set; }
+    public bool IsValid { get; set; }
+    
+    ...
+        IsValid = false;
+    ...
+    
+    GetBatteryStatusCommand = new Command(GetBatteryStatus, ()=> IsValid)
+    
+    async void GetBatteryStatus()
+    {
+        //
+    }
+```
+**Thoughts:** Its good to get back to business after few days of slacking. More on reading this time but it gives an impact on knowing Prism deeper.    
+
+**Assignment** 
+- Try ICommand CanExecute if it really restricts the execution of the command
+- Try IConfirmNavigation false if it is the equivalent of IsVisible flags I've been using. 
+- Xamgirl's Prism part 3 
