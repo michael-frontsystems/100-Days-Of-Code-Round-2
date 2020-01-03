@@ -224,4 +224,4 @@ public class LoginViewModel : IConfirmNavigation
 **Assignment** 
 - Try ICommand CanExecute if it really restricts the execution of the command
 - Try IConfirmNavigation false if it is the equivalent of IsVisible flags I've been using. 
-- Xamgirl's Prism part 3 
+- Try CustomNavigationPage to customise navigation bar colors
