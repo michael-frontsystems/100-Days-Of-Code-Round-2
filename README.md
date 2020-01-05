@@ -225,3 +225,30 @@ public class LoginViewModel : IConfirmNavigation
 - Try ICommand CanExecute if it really restricts the execution of the command
 - Try IConfirmNavigation false if it is the equivalent of IsVisible flags I've been using. 
 - Try CustomNavigationPage to customise navigation bar colors
+
+### Day 8: January 5, 2020 Sunday
+
+**####Today's Progress**:
+- Tried _ICommand CanExecute_
+    - Thoughts: The one stated in tutorial did not meet reality, I did set CanExecute to true but the command did still execute.
+    - Working Around:
+     ```
+        LoginTappedCommand = new DelegateCommand(DoLoginTappedCommand, CanLogin);
+        ...
+        
+        private bool CanLogin()
+        {
+            return DoNotAllowLogin;
+        }
+        ...
+        
+        private async void DoLoginTappedCommand()
+        {
+            if(!LoginTappedCommand.CanExecute())
+            {
+                return;
+            }
+        }
+    ```
+- Test 
+    
