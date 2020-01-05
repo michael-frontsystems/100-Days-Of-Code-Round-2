@@ -233,6 +233,10 @@ public class LoginViewModel : IConfirmNavigation
     - Thoughts: The one stated in tutorial did not meet reality, I did set CanExecute to true but the command did still execute.
     - Working Around:
          ```
+            public bool DoNotAllowLogin { get; set; } = false;
+            ...
+            
+
             LoginTappedCommand = new DelegateCommand(DoLoginTappedCommand, CanLogin);
             ...
             
@@ -250,5 +254,5 @@ public class LoginViewModel : IConfirmNavigation
                 }
             }
         ```
-- Test 
+- Tried _IConfirmNavigation_
     
