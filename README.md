@@ -232,23 +232,23 @@ public class LoginViewModel : IConfirmNavigation
 - Tried _ICommand CanExecute_
     - Thoughts: The one stated in tutorial did not meet reality, I did set CanExecute to true but the command did still execute.
     - Working Around:
-     ```
-        LoginTappedCommand = new DelegateCommand(DoLoginTappedCommand, CanLogin);
-        ...
-        
-        private bool CanLogin()
-        {
-            return DoNotAllowLogin;
-        }
-        ...
-        
-        private async void DoLoginTappedCommand()
-        {
-            if(!LoginTappedCommand.CanExecute())
+         ```
+            LoginTappedCommand = new DelegateCommand(DoLoginTappedCommand, CanLogin);
+            ...
+            
+            private bool CanLogin()
             {
-                return;
+                return DoNotAllowLogin;
             }
-        }
-    ```
+            ...
+            
+            private async void DoLoginTappedCommand()
+            {
+                if(!LoginTappedCommand.CanExecute())
+                {
+                    return;
+                }
+            }
+        ```
 - Test 
     
