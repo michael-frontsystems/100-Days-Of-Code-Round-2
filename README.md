@@ -255,4 +255,5 @@ public class LoginViewModel : IConfirmNavigation
             }
         ```
 - Tried _IConfirmNavigation_
+    - Thoughts: When implementing IConfirmNavigation Interface and set it to false, the view will restrice any navigation. So this could replace my implementation of IsVisible flag and set CanNavigate to return false after calling navigationAsync. 
     
