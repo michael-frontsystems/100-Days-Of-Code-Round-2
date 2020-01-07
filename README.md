@@ -258,10 +258,27 @@ public class LoginViewModel : IConfirmNavigation
     - Thoughts: When implementing IConfirmNavigation Interface and set it to false, the view will restrice any navigation. So this could replace my implementation of IsVisible flag and set CanNavigate to return false after calling navigationAsync. 
     
 
-### Day 9: January 6, 2020 Sunday
+### Day 9: January 6, 2020 Monday
 **Today's Progress**:
 - Tried _IConfirmNavigation_
     - Thoughts: When implementing IConfirmNavigation Interface and set it to false, the view will restrice any navigation. So this could replace my implementation of IsVisible flag and set CanNavigate to return false after calling navigationAsync. 
 
-### Day 10: January 7, 2020 Sunday
+### Day 10: January 7, 2020 Tuesday
 **Today's Progress**:
+- Created an interface  IAuthenticationService _(for all platform)_
+- Add LoginWithEmailAndPassword() method
+- Created a class AuthenticationSergice _(for all platform)_
+- Implement LoginWithEmailAndPassword() currently with just a console log
+- Register the service inside RegisterTypes() as RegisterSingleton<>
+    ``` 
+    containerRegistry.RegisterSingleton<IAuthenticationService, AuthenticationService>();
+    ```
+- Inject IAuthenticationService to LoginViewModel
+    ```
+    public LoginViewModel(INavigationService navigationService, IAuthenticationService authenticationService)
+    ```
+- Create a local reference of authenticationService
+    ```
+    private readonly IAuthenticationService _authenticationService;    
+    ```
+- Call LoginWithEmailAndPassword() from _authenticationService 
