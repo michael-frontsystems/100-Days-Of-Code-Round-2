@@ -282,3 +282,11 @@ public class LoginViewModel : IConfirmNavigation
     private readonly IAuthenticationService _authenticationService;    
     ```
 - Call LoginWithEmailAndPassword() from _authenticationService 
+```
+    _authenticationService.LoginWithEmailAndPassword(); 
+```
+
+**Assignment** 
+- How Cornerstone call Login API 
+- How is AuthenticationService is created  
+- Read about HttpService
