@@ -3,10 +3,15 @@ using Prism.Commands;
 using Prism.Mvvm;
 using Prism.Navigation;
 
+using PrismDemoR2.Interface;
+
 namespace PrismDemoR2.ViewModels
 {
     public class LoginViewModel : BindableBase, INavigationAware, IDestructible
     {
+        private readonly IAuthenticationService _authenticationService;
+        private readonly INavigationService _navigationService;
+
         private string userName;
         public string UserName
         {
@@ -37,11 +42,12 @@ namespace PrismDemoR2.ViewModels
 
         public DelegateCommand LoginCommand { get; set; } 
 
-        private INavigationService _navigationService; 
+        
 
-        public LoginViewModel(INavigationService navigationService)
+        public LoginViewModel(INavigationService navigationService, IAuthenticationService authenticationService)
         {
             _navigationService = navigationService;
+            _authenticationService = authenticationService;
 
             LoginCommand = new DelegateCommand(CallLogInCommand);
 
@@ -55,8 +61,10 @@ namespace PrismDemoR2.ViewModels
         {
             if (userName.Length > 0 && password.Length > 0)
             {
+                _authenticationService.LoginWithEmailAndPassword(userName, password);
+
                 //_navigationService.NavigateAsync(new System.Uri("/NavigationPage/CustomTabbedPage"));
-                _navigationService.NavigateAsync("CustomTabbedPage");
+                //_navigationService.NavigateAsync("CustomTabbedPage");
             }
         }
 
