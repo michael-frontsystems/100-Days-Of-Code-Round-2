@@ -1,12 +1,12 @@
 ﻿<Properties StartupConfiguration="{FB8B3B00-5121-411F-928C-EE2959EEB710}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="PrismDemoR2.iOS/AppDelegate.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PrismDemoR2/ViewModels/LoginViewModel.cs">
     <Files>
-      <File FileName="PrismDemoR2/App.xaml.cs" Line="29" Column="10" />
-      <File FileName="PrismDemoR2/ViewModels/LoginViewModel.cs" />
-      <File FileName="PrismDemoR2/ViewModels/Test1PageViewModel.cs" />
+      <File FileName="PrismDemoR2/App.xaml.cs" Line="55" Column="2" />
+      <File FileName="PrismDemoR2/ViewModels/LoginViewModel.cs" Line="23" Column="31" />
+      <File FileName="PrismDemoR2/ViewModels/Test1PageViewModel.cs" Line="1" Column="1" />
       <File FileName="PrismDemoR2/ViewModels/Test2PageViewModel.cs" />
-      <File FileName="PrismDemoR2/Services/AuthenticationService.cs" />
-      <File FileName="PrismDemoR2.iOS/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="PrismDemoR2/Services/AuthenticationService.cs" Line="19" Column="1" />
+      <File FileName="PrismDemoR2.iOS/AppDelegate.cs" Line="52" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,11 +15,12 @@
             <Node name="PrismDemoR2" expanded="True">
               <Node name="Interface" expanded="True" />
               <Node name="Services" expanded="True" />
+              <Node name="ViewModels" expanded="True">
+                <Node name="LoginViewModel.cs" selected="True" />
+              </Node>
               <Node name="App.xaml" expanded="True" />
             </Node>
-            <Node name="PrismDemoR2.iOS" expanded="True">
-              <Node name="AppDelegate.cs" selected="True" />
-            </Node>
+            <Node name="PrismDemoR2.iOS" expanded="True" />
           </Node>
         </State>
       </Pad>
