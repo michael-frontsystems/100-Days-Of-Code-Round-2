@@ -86,7 +86,7 @@ Investigate about the folowing:
 
 ### Day 5: December 28, 2019 Saturday
 
-**####Today's Progress**: 
+**Today's Progress**: 
 
 **Big Mistake Here!**: 
 - Fix Navigation for login and for calling a child view
@@ -158,7 +158,7 @@ Investigate about the folowing:
 
 ### Day 6: December 31, 2019 Tuesday
 
-**####Today's Progress**: (From Assignment) 
+**Today's Progress**: (From Assignment) 
 - NavigationAware methods still works on Tabbed Page Setup 
 - IDestructible method Destroy() is not triggered if Views are children of the Tabbed page  
 
@@ -166,7 +166,7 @@ Investigate about the folowing:
 
 ### Day 7: January 3, 2020 Friday
 
-**####Today's Progress**:
+**Today's Progress**:
 - NavigationPage -
     - We register the navigation page in RegisterTypes()
     - Add the “NavigationPage” to the uri when navigating (e.g navigationService.NavigateAsync(_uri_);
@@ -228,7 +228,7 @@ public class LoginViewModel : IConfirmNavigation
 
 ### Day 8: January 5, 2020 Sunday
 
-**####Today's Progress**:
+**Today's Progress**:
 - Tried _ICommand CanExecute_
     - Thoughts: The one stated in tutorial did not meet reality, I did set CanExecute to true but the command did still execute.
     - Working Around:
@@ -257,3 +257,11 @@ public class LoginViewModel : IConfirmNavigation
 - Tried _IConfirmNavigation_
     - Thoughts: When implementing IConfirmNavigation Interface and set it to false, the view will restrice any navigation. So this could replace my implementation of IsVisible flag and set CanNavigate to return false after calling navigationAsync. 
     
+
+### Day 9: January 6, 2020 Sunday
+**Today's Progress**:
+- Tried _IConfirmNavigation_
+    - Thoughts: When implementing IConfirmNavigation Interface and set it to false, the view will restrice any navigation. So this could replace my implementation of IsVisible flag and set CanNavigate to return false after calling navigationAsync. 
+
+### Day 10: January 7, 2020 Sunday
+**Today's Progress**:
