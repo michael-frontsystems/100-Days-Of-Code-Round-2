@@ -5,6 +5,13 @@
 This is my second round of #100DaysOfCode. My focus for this round is to learn more about Xamarin, C# and Prism which my current bread and butter. The plan is to learn the basics of MVVM and prism and the end result of this challenge will be a xamarin version of my old native ios app. 
 
 
+**Goal**
+1. _Prism_
+2. _MVVM_
+3. _Design Pattern used in Cornerstone (Factory Pattern)_
+4. _SQLite_
+5. _Sync mechanism_ 
+
 ### Day 1: December 23, 2019 Monday
 
 **Today's Progress**: 
