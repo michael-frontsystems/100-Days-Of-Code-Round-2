@@ -5,14 +5,14 @@
 This is my second round of #100DaysOfCode. My focus for this round is to learn more about Xamarin, C# and Prism which my current bread and butter. The plan is to learn the basics of MVVM and prism and the end result of this challenge will be a xamarin version of my old native ios app. 
 
 
-**Goal**
+##Learning Goals
 1. _Prism_
 2. _MVVM_
 3. _Design Pattern used in Cornerstone (Factory Pattern)_
 4. _SQLite_
 5. _Sync mechanism_ 
 
-### Day 1: December 23, 2019 Monday
+## Day 1: December 23, 2019 Monday
 
 **Today's Progress**: 
 
@@ -32,7 +32,7 @@ This is my second round of #100DaysOfCode. My focus for this round is to learn m
 **Thoughts:** I aquianted myself on how to setup a new iOS project that use Prism Library and call simple navigation. I started to recall how to design  a view on XML.   
 
 
-### Day 2: December 24, 2019 Tuesday
+## Day 2: December 24, 2019 Tuesday
 
 **Today's Progress**: 
 
@@ -52,7 +52,7 @@ Read about the folowing:
     - https://www.theserverside.com/news/1321158/A-beginners-guide-to-Dependency-Injection
 
 
-### Day 3: December 25, 2019 Wednesday
+## Day 3: December 25, 2019 Wednesday
 
 **Today's Progress**: 
 
@@ -91,7 +91,7 @@ Investigate about the folowing:
 - Parameter passing when navigating
 
 
-### Day 5: December 28, 2019 Saturday
+## Day 5: December 28, 2019 Saturday
 
 **Today's Progress**: 
 
@@ -163,7 +163,7 @@ Investigate about the folowing:
 - Parameter passing when navigating
 
 
-### Day 6: December 31, 2019 Tuesday
+## Day 6: December 31, 2019 Tuesday
 
 **Today's Progress**: (From Assignment) 
 - NavigationAware methods still works on Tabbed Page Setup 
@@ -171,7 +171,8 @@ Investigate about the folowing:
 
 **Thoughts:** The children of a tabbed page behaves similar to the native one, they are somewhat static and will still trigger INavigationAware if they have their own children to push and pop. but a new IActivateAware interface was added to get to know if the Tab is activated or not. For example, If Tab1Page was selected _IsActive_ flag will return true and if other tabs were selected then _IsActive_ flag will return false.  
 
-### Day 7: January 3, 2020 Friday
+
+## Day 7: January 3, 2020 Friday
 
 **Today's Progress**:
 - NavigationPage -
@@ -233,7 +234,7 @@ public class LoginViewModel : IConfirmNavigation
 - Try IConfirmNavigation false if it is the equivalent of IsVisible flags I've been using. 
 - Try CustomNavigationPage to customise navigation bar colors
 
-### Day 8: January 5, 2020 Sunday
+## Day 8: January 5, 2020 Sunday
 
 **Today's Progress**:
 - Tried _ICommand CanExecute_
@@ -265,12 +266,13 @@ public class LoginViewModel : IConfirmNavigation
     - Thoughts: When implementing IConfirmNavigation Interface and set it to false, the view will restrice any navigation. So this could replace my implementation of IsVisible flag and set CanNavigate to return false after calling navigationAsync. 
     
 
-### Day 9: January 6, 2020 Monday
+## Day 9: January 6, 2020 Monday
 **Today's Progress**:
 - Tried _IConfirmNavigation_
     - Thoughts: When implementing IConfirmNavigation Interface and set it to false, the view will restrice any navigation. So this could replace my implementation of IsVisible flag and set CanNavigate to return false after calling navigationAsync. 
 
-### Day 10: January 7, 2020 Tuesday
+
+## Day 10: January 7, 2020 Tuesday
 **Today's Progress**:
 - Created an interface  IAuthenticationService _(for all platform)_
 - Add LoginWithEmailAndPassword() method
