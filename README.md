@@ -5,12 +5,13 @@
 This is my second round of #100DaysOfCode. My focus for this round is to learn more about Xamarin, C# and Prism which my current bread and butter. The plan is to learn the basics of MVVM and prism and the end result of this challenge will be a xamarin version of my old native ios app. 
 
 
-##Learning Goals
+## Learning Goals
 1. _Prism_
 2. _MVVM_
-3. _Design Pattern used in Cornerstone (Factory Pattern)_
-4. _SQLite_
-5. _Sync mechanism_ 
+3. Rider IDE (VS 2019 is really slow)
+4. _Design Pattern used in Cornerstone (Factory Pattern)_
+5. _SQLite_
+6. _Sync mechanism_ 
 
 ## Day 1: December 23, 2019 Monday
 
@@ -267,12 +268,14 @@ public class LoginViewModel : IConfirmNavigation
     
 
 ## Day 9: January 6, 2020 Monday
+
 **Today's Progress**:
 - Tried _IConfirmNavigation_
     - Thoughts: When implementing IConfirmNavigation Interface and set it to false, the view will restrice any navigation. So this could replace my implementation of IsVisible flag and set CanNavigate to return false after calling navigationAsync. 
 
 
 ## Day 10: January 7, 2020 Tuesday
+
 **Today's Progress**:
 - Created an interface  IAuthenticationService _(for all platform)_
 - Add LoginWithEmailAndPassword() method
@@ -299,3 +302,13 @@ public class LoginViewModel : IConfirmNavigation
 - How Cornerstone call Login API 
 - How is AuthenticationService is created  
 - Read about HttpService
+
+
+## Day 10: January 10, 2020 Friday
+
+**Today's Progress**:
+- Testing Rider IDE and compare building times to Visual Studio 2019
+    - Rider = (12-13 seconds)
+    - Visual Studio (20 seconds)
+
+**Thoughts:** I miss the last two days because I am waiting for my norskprøve results and thank God, I got the result got an A2 level. 
