@@ -304,11 +304,18 @@ public class LoginViewModel : IConfirmNavigation
 - Read about HttpService
 
 
-## Day 10: January 10, 2020 Friday
+## Day 11: January 10, 2020 Friday
 
 **Today's Progress**:
 - Testing Rider IDE and compare building times to Visual Studio 2019
     - Rider = (12-13 seconds)
     - Visual Studio (20 seconds)
 
-**Thoughts:** I miss the last two days because I am waiting for my norskprøve results and thank God, I got the result got an A2 level. 
+**Thoughts:** I miss the last two days because I am waiting for my norskprøve results and thank God, I got the result got an A2 level. Today, I'm trying a new development environment (IDE) becuase I am annoyed how slow visual studio is when building and running an iOS app on a device. 
+
+**Assignment** 
+- Factory Design Pattern
+- How Cornerstone call Login API 
+- How is AuthenticationService is created  
+- Read about HttpService
+
