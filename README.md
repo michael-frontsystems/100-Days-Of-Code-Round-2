@@ -9,7 +9,7 @@ This is my second round of #100DaysOfCode. My focus for this round is to learn m
 1. _Prism_
 2. _MVVM_
 3. Rider IDE (VS 2019 is really slow)
-4. _Design Pattern used in Cornerstone (Factory Pattern)_
+4. _Design Pattern used in CS (Factory Pattern)_
 5. _SQLite_
 6. _Sync mechanism_ 
 
@@ -83,7 +83,7 @@ Read about the folowing:
     - Add header ui for both children as a temporary Navigation bar
     - Add temporary icons to each tab (e.g Idea and Settings)
 
-**Thoughts:** I started using tabbed page in PRISM as an investigation on how to use it and also to get an initial idea on how can I apply this approach to UserVIewPage in Cornerstone. Its all visual changes in today's progress but I will investigate more if NavigationAware methods will still work on a tabbed page setup.
+**Thoughts:** I started using tabbed page in PRISM as an investigation on how to use it and also to get an initial idea on how can I apply this approach to UserVIewPage in CS. Its all visual changes in today's progress but I will investigate more if NavigationAware methods will still work on a tabbed page setup.
 
 **Assignment** 
 Investigate about the folowing:
@@ -299,7 +299,7 @@ public class LoginViewModel : IConfirmNavigation
 ```
 
 **Assignment** 
-- How Cornerstone call Login API 
+- How CS call Login API 
 - How is AuthenticationService is created  
 - Read about HttpService
 
@@ -315,7 +315,53 @@ public class LoginViewModel : IConfirmNavigation
 
 **Assignment** 
 - Factory Design Pattern
-- How Cornerstone call Login API 
+- How CS call Login API 
 - How is AuthenticationService is created  
 - Read about HttpService
 
+## Day 12: January 11, 2020 Saturday
+
+**Today's Progress**:
+- Factory Design Pattern - Is part of the design pattern where we have a Factory Class that create an object with out exposing the creation logic to the client. 
+    - Example is the `ShapeFactory class`,  that has a method `Create(string shapeType)` and inside that method we initialize 
+      what type of Shape class is initialized.
+      
+     ``` C#
+    class Shape
+    {
+        private Shape(string name)
+        {
+            Console.Writeline(name);
+        }
+    }
+    
+    class ShapeFactory
+    {
+        private Shape Create(string shapeType)
+        {
+            if (shapeType == 'Circle')
+            {
+                var circle = new Shape(Circle');
+                return circle;
+            }
+            
+            if (shapeType == 'Triangle')
+            {
+                var triangle = new Shape(Triangle');
+                return triangle;
+            }
+            
+           ...
+        }
+    }
+    ``` 
+
+- CS use Factory Pattern in Authentication. 
+    - `AuthenticationFactory class` has `Create()` to create the `AuthenticationServiceReal.cs` or `AuthenticationServiceMock.cs`
+    - `LoginViewModel class`
+        - we inject the authenticationServiceFactory 
+        - when calling Authenticate method we call the `var authenticationService = authenticationServiceFactory.Create(model);`
+        - then we call `authenticationService.Login()` API
+        
+**Thoughts:** 
+I get to know how factory pattern is used in CS project. I'll try to follow the same pattern when I start with my FZ xamarin versions.
