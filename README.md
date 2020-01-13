@@ -365,3 +365,8 @@ public class LoginViewModel : IConfirmNavigation
         
 **Thoughts:** 
 I get to know how factory pattern is used in CS project. I'll try to follow the same pattern when I start with my FZ xamarin versions.
+
+**Assignment** 
+- Read LoginDataProvider class
+- Read DataProviderBase
+- Read ILoginDataProvider
