@@ -370,3 +370,18 @@ I get to know how factory pattern is used in CS project. I'll try to follow the 
 - Read LoginDataProvider class
 - Read DataProviderBase
 - Read ILoginDataProvider
+
+## Day 14: January 15, 2020 Wednesday
+
+**Today's Progress**:
+- Research about DataProvider and Repository (e.g LoginDataProvider) _(https://stackoverflow.com/questions/25137518/dataprovider-vs-repository)_
+
+**Thoughts:** 
+Still trying to understand the design and I'll try to create a similar design to call an API 
+
+## Day 15: January 16, 2020 Thursday
+
+**Thoughts:** 
+A possible project with a real user is in discussion from a friend. I will be a little project facilitator for this to help make a proposal MVP. 
+
+
