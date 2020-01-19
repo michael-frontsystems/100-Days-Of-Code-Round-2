@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="PrismDemoR2" t="IncludeRecursive">
+        <e p="App.xaml" t="Include" />
+        <e p="App.xaml.cs" t="Include" />
+        <e p="AssemblyInfo.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="App.xaml.g.cs" t="Include" />
+              <e p="PrismDemoR2.AssemblyInfo.cs" t="Include" />
+              <e p="Views" t="Include">
+                <e p="CustomTabbedPage.xaml.g.cs" t="Include" />
+                <e p="HomePage.xaml.g.cs" t="Include" />
+                <e p="LoginPage.xaml.g.cs" t="Include" />
+                <e p="Test1Page.xaml.g.cs" t="Include" />
+                <e p="Test2Page.xaml.g.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="PrismDemoR2.csproj" t="IncludeRecursive" />
+        <e p="Services" t="Include">
+          <e p="AuthenticationService.cs" t="Include" />
+          <e p="Interface" t="Include">
+            <e p="IAuthenticationService.cs" t="Include" />
+          </e>
+        </e>
+        <e p="ViewModels" t="Include">
+          <e p="HomePageViewModel.cs" t="Include" />
+          <e p="LoginViewModel.cs" t="Include" />
+          <e p="Test1PageViewModel.cs" t="Include" />
+          <e p="Test2PageViewModel.cs" t="Include" />
+        </e>
+        <e p="Views" t="Include">
+          <e p="CustomTabbedPage.xaml" t="Include" />
+          <e p="CustomTabbedPage.xaml.cs" t="Include" />
+          <e p="HomePage.xaml" t="Include" />
+          <e p="HomePage.xaml.cs" t="Include" />
+          <e p="LoginPage.xaml" t="Include" />
+          <e p="LoginPage.xaml.cs" t="Include" />
+          <e p="Test1Page.xaml" t="Include" />
+          <e p="Test1Page.xaml.cs" t="Include" />
+          <e p="Test2Page.xaml" t="Include" />
+          <e p="Test2Page.xaml.cs" t="Include" />
+        </e>
+      </e>
+      <e p="PrismDemoR2.iOS" t="IncludeRecursive">
+        <e p="AppDelegate.cs" t="Include" />
+        <e p="Assets.xcassets" t="Include">
+          <e p="AppIcon.appiconset" t="Include">
+            <e p="Contents.json" t="Include" />
+            <e p="Icon1024.png" t="Include" />
+            <e p="Icon120.png" t="Include" />
+            <e p="Icon152.png" t="Include" />
+            <e p="Icon167.png" t="Include" />
+            <e p="Icon180.png" t="Include" />
+            <e p="Icon20.png" t="Include" />
+            <e p="Icon29.png" t="Include" />
+            <e p="Icon40.png" t="Include" />
+            <e p="Icon58.png" t="Include" />
+            <e p="Icon60.png" t="Include" />
+            <e p="Icon76.png" t="Include" />
+            <e p="Icon80.png" t="Include" />
+            <e p="Icon87.png" t="Include" />
+          </e>
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Entitlements.plist" t="Include" />
+        <e p="Info.plist" t="Include" />
+        <e p="Main.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="PrismDemoR2.iOS.csproj" t="IncludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Resources" t="Include">
+          <e p="100Days_logo.png" t="Include" />
+          <e p="FS_logo_White.png" t="Include" />
+          <e p="idea.png" t="Include" />
+          <e p="idea@2x.png" t="Include" />
+          <e p="idea@3x.png" t="Include" />
+          <e p="LaunchScreen.storyboard" t="Include" />
+          <e p="redouble_logo.png" t="Include" />
+          <e p="settings.png" t="Include" />
+          <e p="settings@2x.png" t="Include" />
+          <e p="settings@3x.png" t="Include" />
+        </e>
+      </e>
+      <e p="PrismDemoR2.sln" t="IncludeFlat" />
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_PrismDemoR2.-993157928.00" t="ExcludeRecursive" />
+  </component>
+</project>
