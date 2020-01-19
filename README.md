@@ -5,12 +5,13 @@
 This is my second round of #100DaysOfCode. My focus for this round is to learn more about Xamarin, C# and Prism which my current bread and butter. The plan is to learn the basics of MVVM and prism and the end result of this challenge will be a xamarin version of my old native ios app. 
 
 
-##Learning Goals
+## Learning Goals
 1. _Prism_
 2. _MVVM_
-3. _Design Pattern used in Cornerstone (Factory Pattern)_
-4. _SQLite_
-5. _Sync mechanism_ 
+3. Rider IDE (VS 2019 is really slow)
+4. _Design Pattern used in CS (Factory Pattern)_
+5. _SQLite_
+6. _Sync mechanism_ 
 
 ## Day 1: December 23, 2019 Monday
 
@@ -82,7 +83,7 @@ Read about the folowing:
     - Add header ui for both children as a temporary Navigation bar
     - Add temporary icons to each tab (e.g Idea and Settings)
 
-**Thoughts:** I started using tabbed page in PRISM as an investigation on how to use it and also to get an initial idea on how can I apply this approach to UserVIewPage in Cornerstone. Its all visual changes in today's progress but I will investigate more if NavigationAware methods will still work on a tabbed page setup.
+**Thoughts:** I started using tabbed page in PRISM as an investigation on how to use it and also to get an initial idea on how can I apply this approach to UserVIewPage in CS. Its all visual changes in today's progress but I will investigate more if NavigationAware methods will still work on a tabbed page setup.
 
 **Assignment** 
 Investigate about the folowing:
@@ -267,12 +268,14 @@ public class LoginViewModel : IConfirmNavigation
     
 
 ## Day 9: January 6, 2020 Monday
+
 **Today's Progress**:
 - Tried _IConfirmNavigation_
     - Thoughts: When implementing IConfirmNavigation Interface and set it to false, the view will restrice any navigation. So this could replace my implementation of IsVisible flag and set CanNavigate to return false after calling navigationAsync. 
 
 
 ## Day 10: January 7, 2020 Tuesday
+
 **Today's Progress**:
 - Created an interface  IAuthenticationService _(for all platform)_
 - Add LoginWithEmailAndPassword() method
@@ -296,6 +299,89 @@ public class LoginViewModel : IConfirmNavigation
 ```
 
 **Assignment** 
-- How Cornerstone call Login API 
+- How CS call Login API 
 - How is AuthenticationService is created  
 - Read about HttpService
+
+
+## Day 11: January 10, 2020 Friday
+
+**Today's Progress**:
+- Testing Rider IDE and compare building times to Visual Studio 2019
+    - Rider = (12-13 seconds)
+    - Visual Studio (20 seconds)
+
+**Thoughts:** I miss the last two days because I am waiting for my norskprøve results and thank God, I got the result got an A2 level. Today, I'm trying a new development environment (IDE) becuase I am annoyed how slow visual studio is when building and running an iOS app on a device. 
+
+**Assignment** 
+- Factory Design Pattern
+- How CS call Login API 
+- How is AuthenticationService is created  
+- Read about HttpService
+
+## Day 12: January 11, 2020 Saturday
+
+**Today's Progress**:
+- Factory Design Pattern - Is part of the design pattern where we have a Factory Class that create an object with out exposing the creation logic to the client. 
+    - Example is the `ShapeFactory class`,  that has a method `Create(string shapeType)` and inside that method we initialize 
+      what type of Shape class is initialized.
+      
+     ``` C#
+    class Shape
+    {
+        private Shape(string name)
+        {
+            Console.Writeline(name);
+        }
+    }
+    
+    class ShapeFactory
+    {
+        private Shape Create(string shapeType)
+        {
+            if (shapeType == 'Circle')
+            {
+                var circle = new Shape(Circle');
+                return circle;
+            }
+            
+            if (shapeType == 'Triangle')
+            {
+                var triangle = new Shape(Triangle');
+                return triangle;
+            }
+            
+           ...
+        }
+    }
+    ``` 
+
+- CS use Factory Pattern in Authentication. 
+    - `AuthenticationFactory class` has `Create()` to create the `AuthenticationServiceReal.cs` or `AuthenticationServiceMock.cs`
+    - `LoginViewModel class`
+        - we inject the authenticationServiceFactory 
+        - when calling Authenticate method we call the `var authenticationService = authenticationServiceFactory.Create(model);`
+        - then we call `authenticationService.Login()` API
+        
+**Thoughts:** 
+I get to know how factory pattern is used in CS project. I'll try to follow the same pattern when I start with my FZ xamarin versions.
+
+**Assignment** 
+- Read LoginDataProvider class
+- Read DataProviderBase
+- Read ILoginDataProvider
+
+## Day 14: January 15, 2020 Wednesday
+
+**Today's Progress**:
+- Research about DataProvider and Repository (e.g LoginDataProvider) _(https://stackoverflow.com/questions/25137518/dataprovider-vs-repository)_
+
+**Thoughts:** 
+Still trying to understand the design and I'll try to create a similar design to call an API 
+
+## Day 15: January 16, 2020 Thursday
+
+**Thoughts:** 
+A possible project with a real user is in discussion from a friend. I will be a little project facilitator for this to help make a proposal MVP. 
+
+
