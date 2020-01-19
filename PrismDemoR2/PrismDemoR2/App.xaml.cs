@@ -6,8 +6,8 @@ using Prism.Ioc;
 using Prism;
 using PrismDemoR2.ViewModels;
 using PrismDemoR2.Views;
-using PrismDemoR2.Interface;
 using PrismDemoR2.Services;
+using PrismDemoR2.Services.Interface;
 
 namespace PrismDemoR2
 {
@@ -50,6 +50,7 @@ namespace PrismDemoR2
             containerRegistry.RegisterForNavigation<Test2Page, Test2PageViewModel>();
 
             containerRegistry.RegisterSingleton<IAuthenticationService, AuthenticationService>();
+            containerRegistry.RegisterSingleton<IHttpService, HttpService>();
         }
     }
 }

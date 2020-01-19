@@ -1,7 +1,7 @@
 ﻿using System;
-using PrismDemoR2.Interface;
+using PrismDemoR2.Services.Interface;
 
-namespace PrismDemoR2.Services
+namespace PrismDemoR2.Services.Interface
 {
     public class AuthenticationService : IAuthenticationService
     {

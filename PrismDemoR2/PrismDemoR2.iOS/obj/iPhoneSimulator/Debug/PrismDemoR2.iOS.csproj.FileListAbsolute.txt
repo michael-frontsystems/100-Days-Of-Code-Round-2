@@ -134,23 +134,24 @@
 /Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2.iOS/bin/iPhoneSimulator/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2.iOS/bin/iPhoneSimulator/Debug/PrismDemoR2.dll
 /Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2.iOS/bin/iPhoneSimulator/Debug/PrismDemoR2.pdb
-/Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.5-13.3/ibtool/_BundleResourceWithLogicalName.items
-/Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.5-13.3/actool/_PartialAppManifest.items
-/Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.5-13.3/actool/_BundleResourceWithLogicalName.items
-/Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.5-13.3/coremlc/_PartialAppManifest.items
-/Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.5-13.3/coremlc/_BundleResourceWithLogicalName.items
-/Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.5-13.3/optimized/FS_logo_White.png
-/Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.5-13.3/optimized/redouble_logo.png
-/Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.5-13.3/optimized/100Days_logo.png
-/Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.5-13.3/optimized/settings.png
-/Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.5-13.3/optimized/settings@2x.png
-/Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.5-13.3/optimized/settings@3x.png
-/Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.5-13.3/optimized/idea.png
-/Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.5-13.3/optimized/idea@2x.png
-/Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.5-13.3/optimized/idea@3x.png
-/Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.5-13.3/optimized/
 /Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2.iOS/obj/iPhoneSimulator/Debug/PrismDemoR2.iOS.csprojAssemblyReference.cache
 /Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2.iOS/obj/iPhoneSimulator/Debug/XamlC.stamp
 /Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2.iOS/obj/iPhoneSimulator/Debug/PrismDemoR2.iOS.csproj.CopyComplete
 /Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2.iOS/obj/iPhoneSimulator/Debug/PrismDemoR2.iOS.exe
 /Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2.iOS/obj/iPhoneSimulator/Debug/PrismDemoR2.iOS.pdb
+/Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/ibtool/_BundleResourceWithLogicalName.items
+/Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/actool/_PartialAppManifest.items
+/Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/actool/_BundleResourceWithLogicalName.items
+/Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/coremlc/_PartialAppManifest.items
+/Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/coremlc/_BundleResourceWithLogicalName.items
+/Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/optimized/FS_logo_White.png
+/Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/optimized/redouble_logo.png
+/Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/optimized/100Days_logo.png
+/Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/optimized/settings.png
+/Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/optimized/settings@2x.png
+/Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/optimized/settings@3x.png
+/Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/optimized/idea.png
+/Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/optimized/idea@2x.png
+/Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/optimized/idea@3x.png
+/Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/optimized/
+/Users/mjredoble/Documents/Projects/100 Days of Code/R2/PrismDemoR2/PrismDemoR2.iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
