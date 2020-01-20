@@ -384,4 +384,16 @@ Still trying to understand the design and I'll try to create a similar design to
 **Thoughts:** 
 A possible project with a real user is in discussion from a friend. I will be a little project facilitator for this to help make a proposal MVP. 
 
+## Day 16: January 19, 2020 Sunday
 
+**Today's Progress**:
+- Added nuget package for JSON serializaiton (Netwon JSON)
+- Created IHttpService, HttpService classes
+- Add a GetAsync() method a dummy Rest API
+
+**Thoughts:** 
+I  need to study more about setting up the JSON serializer with a generic type return <T>. 
+    
+**Assignment** 
+- Read about Newton JSON nuget
+- How to parse jso (e.g array list, normal json with out list)
